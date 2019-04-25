@@ -16,6 +16,11 @@
         - lastname  - varchar(255)
         - mail      - varchar(255)
         - phone     - varchar(255)
-    - 
+
+3. Script PHP
+    - Connect to your Database 
+    ```php
+    $bdd = new PDO('mysql:host=localhost;dbname=workshop;charset=utf8', 'root', '');
+    ```
 
      
