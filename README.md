@@ -22,5 +22,8 @@
     ```php
     $bdd = new PDO('mysql:host=localhost;dbname=workshop;charset=utf8', 'root', '');
     ```
-
+    - Write data
+    ```php
+    $bdd->query("INSERT INTO ...");
+    ```
      
