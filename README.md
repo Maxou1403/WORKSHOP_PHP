@@ -34,3 +34,7 @@
     ```php
     $bdd->exec('UPDATE user SET firstname = "ROOT" WHERE firstname = "Maxence"');
     ```
+    - Delete data
+        ```php
+        $bdd->exec('DELETE FROM `user` WHERE ...');
+        ```
