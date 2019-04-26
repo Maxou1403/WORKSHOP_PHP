@@ -1,4 +1,4 @@
-# WORKSHOP_PHP
+# WORKSHOP_PHP_MYSQL #1
 
 1. WampServer
     - URL to Download : https://sourceforge.net/projects/wampserver/files/WampServer%203/WampServer%203.0.0/wampserver3.1.7_x64.exe/download
