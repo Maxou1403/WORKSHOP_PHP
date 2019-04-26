@@ -30,3 +30,7 @@
     ```php
     $reponse = $bdd->query('SELECT * FROM user');
     ```
+    - Update data
+    ```php
+    $bdd->exec('UPDATE user SET firstname = "ROOT" WHERE firstname = "Maxence"');
+    ```
