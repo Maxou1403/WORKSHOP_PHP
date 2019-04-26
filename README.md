@@ -24,6 +24,9 @@
     ```
     - Write data
     ```php
-    $bdd->query("INSERT INTO ...");
+    $bdd->exec("INSERT INTO ...");
     ```
-     
+    - Read data
+    ```php
+    $reponse = $bdd->query('SELECT * FROM user');
+    ```
