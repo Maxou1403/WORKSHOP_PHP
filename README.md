@@ -29,12 +29,14 @@
     - Read data
     ```php
     $reponse = $bdd->query('SELECT * FROM user');
+    $donnees = $reponse->fetch();
+    print($donnees["firstname"] . " " . $donnees["lastname"] . " " . $donnees["mail"] . " " . $donnees["phone"]);
     ```
     - Update data
     ```php
     $bdd->exec('UPDATE user SET firstname = "ROOT" WHERE firstname = "Maxence"');
     ```
     - Delete data
-        ```php
-        $bdd->exec('DELETE FROM `user` WHERE ...');
-        ```
+    ```php
+   $bdd->exec('DELETE FROM `user` WHERE ...');
+    ```
